@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import DeepfakeComponent from './Section1';
+import DeepfakeDetection from './Section2';
+import ImageDeepfakeDetector from './Section3';
+import AudioDeepfakeDetector from './Section4'
+import Tool from './Section5'
+import ProtectingAgainstDeepfake from './Section6'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DeepfakeComponent />
+      <DeepfakeDetection/>
+      <ImageDeepfakeDetector /> 
+      <AudioDeepfakeDetector />
+      <Tool/>
+      <ProtectingAgainstDeepfake/>
+
     </div>
   );
 }

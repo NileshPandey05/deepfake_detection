@@ -1,0 +1,54 @@
+/* ProtectingAgainstDeepfake.css */
+
+.protect-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+    color: white;
+}
+
+.protect-container h2 {
+    margin-bottom: 20px;
+}
+.protect-container .sub-protect-container {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 50px;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+.protect-container .sub-protect-container h2{
+    font-size: 32px;
+}
+
+/* .protect-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.practice {
+    width: calc(50% - 10px);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.practice > h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.practice > p {
+    font-size: 1rem;
+    line-height: 1.5;
+} */

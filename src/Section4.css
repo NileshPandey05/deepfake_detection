@@ -1,0 +1,36 @@
+/* Section4.css */
+
+.audio-deepfake-detector-container {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 30px;
+    width: 100vw;
+    height: 350px;
+}
+
+.audio-deepfake-detector-container .ai_mata {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 45px;
+}
+
+.audio-deepfake-detector-container button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.audio-deepfake-detector-container button:hover {
+    transform: scale(1.1); /* Scale the button on hover */
+}
+
+@media (max-width: 768px) {
+    .audio-deepfake-detector-container {
+        padding: 10px;
+    }
+}
